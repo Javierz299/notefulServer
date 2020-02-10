@@ -1,1 +1,6 @@
-drop table if exists notes;
+DROP TABLE IF EXISTS notes;
+
+
+
+
+

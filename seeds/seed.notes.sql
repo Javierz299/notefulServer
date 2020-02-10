@@ -1,17 +1,22 @@
-insert into notes (note_name, folder_id, content)
-values 
-  (
-    'Dogs',
-    1,
-    'Corporis accusamus placeat quas non voluptas. Harum fugit molestias qui. Velit ex animi reiciendis quasi. Suscipit totam delectus ut voluptas aut qui rerum. Non veniam eius molestiae rerum quam.\n \rUnde qui aperiam praesentium alias. Aut temporibus id quidem recusandae voluptatem ut eum. Consequatur asperiores et in quisquam corporis maxime dolorem soluta. Et officiis id est quia sunt qui iste reiciendis saepe. Ut aut doloribus minus non nisi vel corporis. Veritatis mollitia et molestias voluptas neque aspernatur reprehenderit.\n \rMaxime aut reprehenderit mollitia quia eos sit fugiat exercitationem. Minima dolore soluta. Quidem fuga ut sit voluptas nihil sunt aliquam dignissimos. Ex autem nemo quisquam voluptas consequuntur et necessitatibus minima velit. Consequatur quia quis tempora minima. Aut qui dolor et dignissimos ut repellat quas ad.'
-  ),
-  (
-    'Cats',
-    2,
-    'Corporis accusamus placeat quas non voluptas. Harum fugit molestias qui. Velit ex animi reiciendis quasi. Suscipit totam delectus ut voluptas aut qui rerum. Non veniam eius molestiae rerum quam.\n \rUnde qui aperiam praesentium alias. Aut temporibus id quidem recusandae voluptatem ut eum. Consequatur asperiores et in quisquam corporis maxime dolorem soluta. Et officiis id est quia sunt qui iste reiciendis saepe. Ut aut doloribus minus non nisi vel corporis. Veritatis mollitia et molestias voluptas neque aspernatur reprehenderit.\n \rMaxime aut reprehenderit mollitia quia eos sit fugiat exercitationem. Minima dolore soluta. Quidem fuga ut sit voluptas nihil sunt aliquam dignissimos. Ex autem nemo quisquam voluptas consequuntur et necessitatibus minima velit. Consequatur quia quis tempora minima. Aut qui dolor et dignissimos ut repellat quas ad.'
-  ),
-  (
-    'Bears',
-    3,
-    'Corporis accusamus placeat quas non voluptas. Harum fugit molestias qui. Velit ex animi reiciendis quasi. Suscipit totam delectus ut voluptas aut qui rerum. Non veniam eius molestiae rerum quam.\n \rUnde qui aperiam praesentium alias. Aut temporibus id quidem recusandae voluptatem ut eum. Consequatur asperiores et in quisquam corporis maxime dolorem soluta. Et officiis id est quia sunt qui iste reiciendis saepe. Ut aut doloribus minus non nisi vel corporis. Veritatis mollitia et molestias voluptas neque aspernatur reprehenderit.\n \rMaxime aut reprehenderit mollitia quia eos sit fugiat exercitationem. Minima dolore soluta. Quidem fuga ut sit voluptas nihil sunt aliquam dignissimos. Ex autem nemo quisquam voluptas consequuntur et necessitatibus minima velit. Consequatur quia quis tempora minima. Aut qui dolor et dignissimos ut repellat quas ad.'
-  )
+INSERT INTO notes (name, modified, folder_id, content)
+
+VALUES
+  ('Dogs', '2019-01-03', 1, 'Amet dolorem eligendi minima ea saepe cum repudiandae et id'),
+  ('Cats', '2018-08-15', 2, 'Ducimus commodi rerum reprehenderit inventore id.'),
+  ('Pigs', '2018-03-01', 3, 'Corporis voluptate in cumque error velit accusantium sit dolorem placeat.'),
+  ('Birds', '2019-01-04', 1, 'Commodi voluptas eligendi necessitatibus. Tempore rem aliquam provident excepturi omnis quasi consequatur.'),
+  ('Bears', '2018-07-12', 2, 'Assumenda nesciunt et nihil et ut asperiores. Voluptatibus nihil deserunt voluptatem voluptates et.'),
+  ('Horses', '2018-08-20', 3, 'Iste doloribus illo perferendis. Ipsa et dolorum. Et deserunt porro et.'),
+  ('Tigers', '2018-03-03', 1, 'Quia doloremque eos culpa natus iusto in est aliquid.'),
+  ('Wolves', '2018-05-16', 2, 'Aperiam in aut et aut quos. Totam sunt et. Nesciunt illo facere ut in cum unde aut iure esse.'),
+  ('Elephants', '2018-04-11', 3, 'Culpa at animi aut sequi voluptatem nulla sint atque. Id quisquam error eos nemo qui earum.'),
+  ('Lions', '2018-04-26', 1, 'Quibusdam explicabo ut. Dolorum qui quos eos maxime quis pariatur. Autem asperiores sed unde quos neque ut.'),
+  ('Monkeys', '2018-02-05', 2, 'Voluptas corrupti nihil. Consequatur at blanditiis non ipsum aut.'),
+  ('Bats', '2018-12-01', 3, 'Labore vel architecto ut ad cupiditate nesciunt nobis. Accusantium et quod distinctio neque facilis.'),
+  ('Turtles', '2018-09-11', 1, 'Earum molestiae eligendi reiciendis et omnis. Ratione velit sit exercitationem quisquam ducimus nobis optio hic.'),
+  ('Zebras', '2018-08-13', 2, 'Recusandae ea vel deserunt nisi. Quibusdam sed est tenetur provident ratione aut ex assumenda. Quas sint velit odio ut maxime.')
+;
+
+
+
+

@@ -1,14 +1,12 @@
-insert into folders (id, folder_name)
-values 
-(
-  1,
-  'Important'
-),
-(
-  2,
-  'Super'
-),
-(
-  3,
-  'Spangley'
-)
+INSERT INTO folders (name, date_created)
+
+VALUES 
+  ('Important', '2019-11-11'),
+  ('Super', '2019-11-10'),
+  ('Spangley', '2019-11-09')
+;
+
+
+
+
+
