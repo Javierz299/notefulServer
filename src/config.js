@@ -4,4 +4,4 @@ module.exports = {
   DATABASE_URL: process.env.DATABASE_URL || 'postgresql://dunder-mifflin:password@localhost/noteful',
   TEST_DATABASE_URL: process.env.TEST_DATABASE_URL || "postgresql://dunder-mifflin:password@localhost/spaced-repetition-test",
 };
-
+ 
